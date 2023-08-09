@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 
 export default function TextFrom(props) {
+  
   const handleupClick = () => {
     let newtext = text.toUpperCase();
     setText(newtext);
